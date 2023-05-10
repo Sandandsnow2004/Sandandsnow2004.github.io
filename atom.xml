@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Welcome to Xuejing&#39;s space</title>
+  <title>Welcome to Xuejing space</title>
   
-  <subtitle>XUEJING SPACE</subtitle>
+  <subtitle>Sand Snow Starlight</subtitle>
   <link href="https://sandandsnow2004.github.io/atom.xml" rel="self"/>
   
   <link href="https://sandandsnow2004.github.io/"/>
-  <updated>2023-05-10T22:44:04.477Z</updated>
+  <updated>2023-05-10T22:49:48.015Z</updated>
   <id>https://sandandsnow2004.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sandandsnow2004.github.io/2023/05/10/404-bug/"/>
     <id>https://sandandsnow2004.github.io/2023/05/10/404-bug/</id>
     <published>2023-05-10T14:43:17.000Z</published>
-    <updated>2023-05-10T22:44:04.477Z</updated>
+    <updated>2023-05-10T22:49:48.015Z</updated>
     
     <content type="html"><![CDATA[<p>第一次hexo d部署页面时，网站一直无法正常打开，显示404<br>本地可以正常部署，解决方法是，在github pages setting里将默认branch改为_config.yml中 master （或者把_config.yml中branch：main也可）<br>_config.yml中<br>hexo generate empty html page<br>trooubleshooting：<br>hexo g –debug<br>找到error： wordcount 没有defined<br>解决方法：重新安装wordcount<br>npm install hexo-wordcount –save<br>清理hexo，重新部署<br>hexo clean<br>hexo d -g<br>PS. 在网上查询hexo生成空白页面时，发现还有可能是因为node最新版和hexo当前版本不兼容，要不降级node到12，or13，要不升级hexo。实际我操作时，hexo默认已经是最新版本，且hexo重置十分麻烦，很多设置已经依赖当前版本。node直接在控制面板卸载重装即可。另外，我没有重装12，or13，是因为我的npm版本比较新，只能兼容node14及以上。</p><p>本网站使用主题<br>hexo-theme-matery</p>]]></content>
     
@@ -43,7 +43,7 @@
     <link href="https://sandandsnow2004.github.io/2023/05/10/about-git/"/>
     <id>https://sandandsnow2004.github.io/2023/05/10/about-git/</id>
     <published>2023-05-10T14:11:14.000Z</published>
-    <updated>2023-05-10T22:44:47.687Z</updated>
+    <updated>2023-05-10T22:49:55.573Z</updated>
     
     <content type="html"><![CDATA[<p>1 motivation to use a version control system:<br>    • In the ideal world:<br>        ○ things develop linearly every new version is an improvement upon the previous version, and no need to backtrack<br>        ○ Everyone knows what everyone else is doing<br>        ○ In the end, things are simply finished<br>    • In the real world:<br>        ○ A new version can be anything between a complete catstrophe and a major breakthrough<br>        ○ People do not know what others are doing<br>        ○ Keep fixing earlier mistakes…<br>    • What can VCS do:<br>        ○ Stores the history using snapshots (commits)<br>        ○ Manages snapshots and associated metadata: Naming (tags), comments, dates, authors, etc<br>        ○ handle multiple development paths (branches). One of the primary functions of VCS is to allow collaboration<br>        ○ VCS functions as a backup<br>    • All in all,  Version control systems:<br>        ○ keeps track of your files and other output<br>        ○ tracks what is created and modified<br>        ○ tracks who made the modifications<br>        ○ tracks why the modifications were made (if you make good commit comments)<br>2 whay Git：<br>        ○ Distributed version control. Open source.<br>        ○ Popular, used by many project and people<br>        ○Fast,simple and flexible</p><p>countinue…</p>]]></content>
     
@@ -66,7 +66,7 @@
     <link href="https://sandandsnow2004.github.io/2023/05/10/hello-world/"/>
     <id>https://sandandsnow2004.github.io/2023/05/10/hello-world/</id>
     <published>2023-05-10T13:22:25.472Z</published>
-    <updated>2023-05-10T13:22:25.472Z</updated>
+    <updated>2023-05-10T22:49:52.233Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
