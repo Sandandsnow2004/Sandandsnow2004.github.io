@@ -6,7 +6,7 @@
   <link href="https://sandandsnow2004.github.io/atom.xml" rel="self"/>
   
   <link href="https://sandandsnow2004.github.io/"/>
-  <updated>2023-05-10T22:49:48.015Z</updated>
+  <updated>2023-05-10T23:09:54.578Z</updated>
   <id>https://sandandsnow2004.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sandandsnow2004.github.io/2023/05/10/404-bug/"/>
     <id>https://sandandsnow2004.github.io/2023/05/10/404-bug/</id>
     <published>2023-05-10T14:43:17.000Z</published>
-    <updated>2023-05-10T22:49:48.015Z</updated>
+    <updated>2023-05-10T23:09:54.578Z</updated>
     
     <content type="html"><![CDATA[<p>第一次hexo d部署页面时，网站一直无法正常打开，显示404<br>本地可以正常部署，解决方法是，在github pages setting里将默认branch改为_config.yml中 master （或者把_config.yml中branch：main也可）<br>_config.yml中<br>hexo generate empty html page<br>trooubleshooting：<br>hexo g –debug<br>找到error： wordcount 没有defined<br>解决方法：重新安装wordcount<br>npm install hexo-wordcount –save<br>清理hexo，重新部署<br>hexo clean<br>hexo d -g<br>PS. 在网上查询hexo生成空白页面时，发现还有可能是因为node最新版和hexo当前版本不兼容，要不降级node到12，or13，要不升级hexo。实际我操作时，hexo默认已经是最新版本，且hexo重置十分麻烦，很多设置已经依赖当前版本。node直接在控制面板卸载重装即可。另外，我没有重装12，or13，是因为我的npm版本比较新，只能兼容node14及以上。</p><p>本网站使用主题<br>hexo-theme-matery</p>]]></content>
     
@@ -34,7 +34,7 @@
     
     
     
-    <category term="new" scheme="https://sandandsnow2004.github.io/tags/new/"/>
+    <category term="bug" scheme="https://sandandsnow2004.github.io/tags/bug/"/>
     
   </entry>
   
@@ -43,9 +43,9 @@
     <link href="https://sandandsnow2004.github.io/2023/05/10/about-git/"/>
     <id>https://sandandsnow2004.github.io/2023/05/10/about-git/</id>
     <published>2023-05-10T14:11:14.000Z</published>
-    <updated>2023-05-10T23:06:04.323Z</updated>
+    <updated>2023-05-10T23:09:13.208Z</updated>
     
-    <content type="html"><![CDATA[<p>1 motivation to use a version control system:<br>    • In the ideal world:<br>        ○ things develop linearly every new version is an improvement upon the previous version, and no need to backtrack<br>        ○ Everyone knows what everyone else is doing<br>        ○ In the end, things are simply finished<br>    • In the real world:<br>        ○ A new version can be anything between a complete catstrophe and a major breakthrough<br>        ○ People do not know what others are doing<br>        ○ Keep fixing earlier mistakes…<br>    • What can VCS do:<br>        ○ Stores the history using snapshots (commits)<br>        ○ Manages snapshots and associated metadata: Naming (tags), comments, dates, authors, etc<br>        ○ handle multiple development paths (branches). One of the primary functions of VCS is to allow collaboration<br>        ○ VCS functions as a backup<br>    • All in all,  Version control systems:<br>        ○ keeps track of your files and other output<br>        ○ tracks what is created and modified<br>        ○ tracks who made the modifications<br>        ○ tracks why the modifications were made (if you make good commit comments)<br>2 whay Git：<br>        ○ Distributed version control. Open source.<br>        ○ Popular, used by many project and people<br>        ○Fast,simple and flexible</p><p>countinue…<br>next steps:<br>git commands<br>SSH Key-Based Authentication<br>remote repository in github<br>online course:<br><a href="https://learn.udacity.com/courses/ud123">https://learn.udacity.com/courses/ud123</a><br>learning by games:<br><a href="https://learngitbranching.js.org/?locale=zh_CN">https://learngitbranching.js.org/?locale=zh_CN</a></p>]]></content>
+    <content type="html"><![CDATA[<p>This is a quick guide that will explain the basics of version control system (VCS) and git</p><p>1 motivation to use a version control system:<br>    • In the ideal world:<br>        ○ things develop linearly every new version is an improvement upon the previous version, and no need to backtrack<br>        ○ Everyone knows what everyone else is doing<br>        ○ In the end, things are simply finished<br>    • In the real world:<br>        ○ A new version can be anything between a complete catstrophe and a major breakthrough<br>        ○ People do not know what others are doing<br>        ○ Keep fixing earlier mistakes…<br>    • What can VCS do:<br>        ○ Stores the history using snapshots (commits)<br>        ○ Manages snapshots and associated metadata: Naming (tags), comments, dates, authors, etc<br>        ○ handle multiple development paths (branches). One of the primary functions of VCS is to allow collaboration<br>        ○ VCS functions as a backup<br>    • All in all,  Version control systems:<br>        ○ keeps track of your files and other output<br>        ○ tracks what is created and modified<br>        ○ tracks who made the modifications<br>        ○ tracks why the modifications were made (if you make good commit comments)<br>2 whay Git：<br>        ○ Distributed version control. Open source.<br>        ○ Popular, used by many project and people<br>        ○Fast,simple and flexible</p><p>countinue…<br>next steps:<br>git commands<br>SSH Key-Based Authentication<br>remote repository in github<br>online course:<br><a href="https://learn.udacity.com/courses/ud123">https://learn.udacity.com/courses/ud123</a><br>learning by games:<br><a href="https://learngitbranching.js.org/?locale=zh_CN">https://learngitbranching.js.org/?locale=zh_CN</a></p>]]></content>
     
     
     <summary type="html">This is a quick guide that will explain the basics of version control system (VCS) and git.</summary>
